@@ -13,7 +13,7 @@ int main()
 	cin >> k>>x;
 	for (int i = 2; i <k; i+=2)
 	{
-		y = y + 1 / (i * x);
+		y = y + 1.0/ (i * x);
 	}
 	cout << y;
 }
