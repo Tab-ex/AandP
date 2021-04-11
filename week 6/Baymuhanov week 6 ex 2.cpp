@@ -5,9 +5,9 @@
 
 using namespace std;
 
-
-int main()
+void Fun()
 {
+
 	float x, y;
 	ofstream fout("Ex 2.txt");
 	cout << "Enter the number ";
@@ -29,4 +29,9 @@ int main()
 		}
 	
 	
+}
+
+int main()
+{	
+	Fun();
 }
