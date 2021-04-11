@@ -5,10 +5,9 @@
 
 using namespace std;
 
-
-int main()
+void Fun()
 {
-	float x, y;
+		float x, y;
 	bool u = true;
 	ofstream fout("Ex 2.txt");
 	
@@ -48,4 +47,10 @@ int main()
 		fout << "Try another number\n";
 	}
 }
+
+}
+
+int main()
+{
+	Fun();
 }
