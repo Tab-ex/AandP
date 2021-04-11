@@ -4,8 +4,7 @@
 
 using namespace std;
 
-
-int main()
+void Fun()
 {
 	float x, y;
 	ofstream fout("Ex 2.txt");
@@ -40,5 +39,9 @@ int main()
 			cout << "No, he does ";
 			fout << "No, he does ";
 		}
-	}
+	}}
+
+int main()
+{
+	Fun();
 }
