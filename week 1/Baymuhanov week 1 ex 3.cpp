@@ -11,5 +11,8 @@ int main()
     system("color F3");
     std::cout << "Lead your three numbers\n";
     float Num1, Num2, Num3;
+     std::cin>>Num1>> Num2>> Num3;
+     F(Num1,Num2, Num2);
+     return 0;
 
 }
