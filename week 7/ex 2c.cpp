@@ -5,6 +5,17 @@ using namespace std;
 int x1,x2,Step;
 float y;
 
+void f(int x,int y,int S)
+{
+for (int i = x; i < y; i+=Step)
+	{
+		y = -2*i*i+3*i-1;
+		
+		cout << y << "\t" << i << endl;
+	}
+	
+}
+
 int main()
 {
 	// Вариант С
@@ -16,14 +27,10 @@ int main()
 	cout << ("Ведите шаг ");
 	cin >> Step;
 
-    cout << ("y \t x\n");
-
-	for (int i = x1; i < x2; i+=Step)
-	{
-		y = -2*i*i+3*i-1;
-		
-		cout << y << "\t" << i << endl;
-	}
-
+    	cout << ("y \t x\n");
+	f(int x,int y,int S);
+	return 0;
+	
+	
 }
 
