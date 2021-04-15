@@ -4,12 +4,8 @@ using namespace std;
 
 int i, k, n;
 
-
-int main()
-{
-	setlocale(LC_ALL, "Russian");
-	cout << ("ведите значения");
-	cin >> n;
+F()
+{ 	
 	k = 0;
 	for (int i = 100; i < 1000; i++) 
 	{
@@ -19,6 +15,16 @@ int main()
 		}
 	}
 	cout << k;
+}
+
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	cout << ("ведите значения");
+	cin >> n;
+	F();
+	return 0;
+	
 }
 
 
